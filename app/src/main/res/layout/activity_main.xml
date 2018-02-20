@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/udacity"
+        style="@style/imageViewStyle" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text="@string/udacity"
+        style="@style/textView1Style" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="@string/_2465_latham_st"
+        style="@style/textView2Style" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="@string/mountain_view_ca_94043"
+        style="@style/textView3Style" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="@string/_650_555_5555"
+        style="@style/textView4Style" />
+
+
+</RelativeLayout>
+
+
+
